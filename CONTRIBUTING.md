@@ -59,7 +59,6 @@ We welcome suggestions for new features or improvements to existing functionalit
 #### Commit Messages
 
 Follow the conventional commit format:
-
 ```
 type(scope): brief description
 
@@ -69,7 +68,6 @@ Fixes #123 (optional)
 ```
 
 Types:
-
 - `feat`: New feature
 - `fix`: Bug fix
 - `docs`: Documentation changes
@@ -95,7 +93,6 @@ Types:
 #### Progressive Enhancement Approach
 
 All components should follow the progressive enhancement model:
-
 1. **Basic** - Core functionality
 2. **Enhanced** - Additional features
 3. **Super Enhanced** - Advanced capabilities
@@ -105,7 +102,6 @@ All components should follow the progressive enhancement model:
 #### Component Structure
 
 Each component should include:
-
 1. Main component file (`.tsx`)
 2. Dedicated page file (in appropriate directory structure)
 3. Documentation file (in `/docs` directory)
@@ -114,7 +110,6 @@ Each component should include:
 #### Feature Implementation
 
 When implementing new features:
-
 1. Start with the basic level component
 2. Gradually add features for each enhancement level
 3. Ensure consistency across all levels
@@ -133,10 +128,18 @@ When implementing new features:
 ### Versioning
 
 We follow Semantic Versioning (SemVer):
-
 - MAJOR version for incompatible API changes
 - MINOR version for backward-compatible functionality additions
 - PATCH version for backward-compatible bug fixes
+
+### Package Publishing
+
+This project publishes packages to GitHub Packages:
+- [@rasyaandrean/smk-negeri-website](https://github.com/RasyaAndrean/SMK-Negeri-Website/packages) - Complete platform
+- [@rasyaandrean/smk-negeri-client](https://github.com/RasyaAndrean/SMK-Negeri-Website/packages) - Client application
+- [@rasyaandrean/smk-negeri-server](https://github.com/RasyaAndrean/SMK-Negeri-Website/packages) - Server API
+
+Packages are automatically published when a new release is created. For more information, see [docs/GITHUB_PACKAGES.md](docs/GITHUB_PACKAGES.md).
 
 ## Community
 
@@ -149,7 +152,6 @@ We follow Semantic Versioning (SemVer):
 ### Recognition
 
 Contributors will be recognized in:
-
 - README.md contributor list
 - Release notes
 - Annual contributor spotlight
@@ -157,7 +159,6 @@ Contributors will be recognized in:
 ## Questions?
 
 If you have any questions about contributing, feel free to:
-
 1. Open an issue for discussion
 2. Contact the maintainers directly
 3. Join our community discussions

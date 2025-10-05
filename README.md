@@ -137,6 +137,38 @@ This repository contains the complete codebase for the SMK Negeri Educational Pl
    cd server && npm start
    ```
 
+## GitHub Packages
+
+This project is published to GitHub Packages for easy distribution and consumption. Three packages are available:
+
+1. **[@rasyaandrean/smk-negeri-website](https://github.com/RasyaAndrean/SMK-Negeri-Website/packages)** - Complete platform package
+2. **[@rasyaandrean/smk-negeri-client](https://github.com/RasyaAndrean/SMK-Negeri-Website/packages)** - Client application only
+3. **[@rasyaandrean/smk-negeri-server](https://github.com/RasyaAndrean/SMK-Negeri-Website/packages)** - Server API only
+
+### Installing from GitHub Packages
+
+To install packages from GitHub Packages, you need to authenticate with a personal access token:
+
+1. Create a personal access token with `read:packages` scope
+2. Configure authentication in `.npmrc`:
+   ```
+   //npm.pkg.github.com/:_authToken=YOUR_PERSONAL_ACCESS_TOKEN
+   @rasyaandrean:registry=https://npm.pkg.github.com
+   ```
+3. Install the packages:
+   ```bash
+   # Install the complete platform
+   npm install @rasyaandrean/smk-negeri-website
+
+   # Install only the client
+   npm install @rasyaandrean/smk-negeri-client
+
+   # Install only the server
+   npm install @rasyaandrean/smk-negeri-server
+   ```
+
+For more detailed information about GitHub Packages, see [docs/GITHUB_PACKAGES.md](docs/GITHUB_PACKAGES.md).
+
 ## Releases
 
 ### v1.0.0 - Initial Release

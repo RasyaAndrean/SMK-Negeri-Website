@@ -1,8 +1,15 @@
 {
-  "name": "smk-negeri-website",
+  "name": "@rasyaandrean/smk-negeri-website",
   "version": "1.0.0",
   "description": "Comprehensive website for SMK Negeri (Vocational High School)",
   "main": "index.js",
+  "files": [
+    "client/",
+    "server/",
+    "docs/",
+    "README.md",
+    "LICENSE"
+  ],
   "scripts": {
     "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
     "dev:client": "cd client && npm run dev",
@@ -12,17 +19,30 @@
     "build:server": "cd server && npm run build",
     "start": "concurrently \"npm run start:client\" \"npm run start:server\"",
     "start:client": "cd client && npm start",
-    "start:server": "cd server && npm start"
+    "start:server": "cd server && npm start",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [
     "smk",
     "vocational-school",
     "education",
-    "website"
+    "website",
+    "fullstack"
   ],
-  "author": "SMK Negeri Development Team",
+  "author": "Rasya Andrean",
   "license": "MIT",
   "devDependencies": {
     "concurrently": "^7.6.0"
-  }
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RasyaAndrean/SMK-Negeri-Website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/RasyaAndrean/SMK-Negeri-Website/issues"
+  },
+  "homepage": "https://github.com/RasyaAndrean/SMK-Negeri-Website#readme"
 }
