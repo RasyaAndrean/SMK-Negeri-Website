@@ -1,0 +1,585 @@
+// SuperEnhancedRealTimeCollaboration.tsx - Component with advanced learning path information for real-time collaboration
+export default function SuperEnhancedRealTimeCollaboration() {
+  return `
+    <div style="font-family: Arial, sans-serif; background-color: white; border-radius: 12px; box-shadow: 0 4px 12px rgba(0,0,0,0.1); padding: 28px; margin-bottom: 30px;">
+      <h3 style="font-size: 1.5rem; font-weight: bold; color: #333; margin-bottom: 20px; display: flex; align-items: center;">
+        <span style="margin-right: 10px;">🌟</span> Super Enhanced Real-time Collaboration
+      </h3>
+
+      <div style="background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%); border-radius: 12px; padding: 24px; color: white; margin-bottom: 25px;">
+        <div style="display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 15px;">
+          <h4 style="font-weight: bold; margin: 0;">Advanced Web Development Project Collaboration</h4>
+          <span style="background-color: rgba(255, 255, 255, 0.2); color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; font-weight: bold;">
+            ACTIVE SESSION
+          </span>
+        </div>
+        <p style="font-size: 1.1rem; margin-bottom: 20px; opacity: 0.9;">Enterprise-Level Full-Stack Web Development Path with AI Integration</p>
+        <p style="margin-bottom: 20px; max-width: 800px;">Comprehensive path covering frontend, backend, database development, AI integration, and DevOps with real-time collaboration features</p>
+        <div style="display: flex; gap: 30px; flex-wrap: wrap;">
+          <div style="text-align: center;">
+            <p style="font-size: 0.9rem; opacity: 0.8;">Participants</p>
+            <p style="font-weight: bold; font-size: 1.2rem;">5/6</p>
+          </div>
+          <div style="text-align: center;">
+            <p style="font-size: 0.9rem; opacity: 0.8;">Session Duration</p>
+            <p style="font-weight: bold; font-size: 1.2rem;">3h 45m</p>
+          </div>
+          <div style="text-align: center;">
+            <p style="font-size: 0.9rem; opacity: 0.8;">Files Shared</p>
+            <p style="font-weight: bold; font-size: 1.2rem;">12</p>
+          </div>
+          <div style="text-align: center;">
+            <p style="font-size: 0.9rem; opacity: 0.8;">AI Assistances</p>
+            <p style="font-weight: bold; font-size: 1.2rem;">8</p>
+          </div>
+        </div>
+      </div>
+
+      <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 25px;">
+        <div>
+          <h4 style="font-weight: bold; color: #333; margin-bottom: 15px;">👥 Active Participants with Skill Progression</h4>
+
+          <div style="margin-bottom: 25px;">
+            <div style="display: flex; align-items: center; padding: 15px; background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-radius: 12px; margin-bottom: 15px;">
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #2196f3, #21cbf3); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem; margin-right: 15px;">AS</div>
+              <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                  <h5 style="font-weight: bold; color: #0d47a1; margin: 0;">Andi Saputra</h5>
+                  <span style="background-color: #4caf50; color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; font-weight: bold;">ONLINE</span>
+                </div>
+                <p style="color: #666; margin: 3px 0; font-size: 0.9rem;">Senior Frontend Developer</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+                  <span style="background-color: #bbdefb; color: #0d47a1; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">React</span>
+                  <span style="background-color: #bbdefb; color: #0d47a1; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">TypeScript</span>
+                  <span style="background-color: #bbdefb; color: #0d47a1; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Next.js</span>
+                  <span style="background-color: #bbdefb; color: #0d47a1; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">CSS</span>
+                </div>
+                <div style="margin-top: 10px;">
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 3px;">
+                    <span>Frontend Mastery</span>
+                    <span>92%</span>
+                  </div>
+                  <div style="width: 100%; background-color: #e9ecef; border-radius: 5px; height: 6px;">
+                    <div style="background: linear-gradient(90deg, #2196f3, #21cbf3); height: 6px; border-radius: 5px; width: 92%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: center; padding: 15px; background: linear-gradient(135deg, #e8f5e9, #c8e6c9); border-radius: 12px; margin-bottom: 15px;">
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #4caf50, #8bc34a); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem; margin-right: 15px;">BP</div>
+              <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                  <h5 style="font-weight: bold; color: #2e7d32; margin: 0;">Budi Prasetyo</h5>
+                  <span style="background-color: #4caf50; color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; font-weight: bold;">ONLINE</span>
+                </div>
+                <p style="color: #666; margin: 3px 0; font-size: 0.9rem;">Backend Architect</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+                  <span style="background-color: #c8e6c9; color: #2e7d32; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Node.js</span>
+                  <span style="background-color: #c8e6c9; color: #2e7d32; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Express</span>
+                  <span style="background-color: #c8e6c9; color: #2e7d32; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">MongoDB</span>
+                  <span style="background-color: #c8e6c9; color: #2e7d32; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Redis</span>
+                </div>
+                <div style="margin-top: 10px;">
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 3px;">
+                    <span>Backend Mastery</span>
+                    <span>87%</span>
+                  </div>
+                  <div style="width: 100%; background-color: #e9ecef; border-radius: 5px; height: 6px;">
+                    <div style="background: linear-gradient(90deg, #4caf50, #8bc34a); height: 6px; border-radius: 5px; width: 87%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: center; padding: 15px; background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-radius: 12px; margin-bottom: 15px;">
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #9c27b0, #e91e63); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem; margin-right: 15px;">CD</div>
+              <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                  <h5 style="font-weight: bold; color: #6a1b9a; margin: 0;">Cinta Dewi</h5>
+                  <span style="background-color: #4caf50; color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; font-weight: bold;">ONLINE</span>
+                </div>
+                <p style="color: #666; margin: 3px 0; font-size: 0.9rem;">Lead UI/UX Designer</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+                  <span style="background-color: #e1bee7; color: #6a1b9a; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Figma</span>
+                  <span style="background-color: #e1bee7; color: #6a1b9a; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Adobe XD</span>
+                  <span style="background-color: #e1bee7; color: #6a1b9a; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">User Research</span>
+                  <span style="background-color: #e1bee7; color: #6a1b9a; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Prototyping</span>
+                </div>
+                <div style="margin-top: 10px;">
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 3px;">
+                    <span>Design Mastery</span>
+                    <span>95%</span>
+                  </div>
+                  <div style="width: 100%; background-color: #e9ecef; border-radius: 5px; height: 6px;">
+                    <div style="background: linear-gradient(90deg, #9c27b0, #e91e63); height: 6px; border-radius: 5px; width: 95%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: center; padding: 15px; background: linear-gradient(135deg, #fff3e0, #ffe0b2); border-radius: 12px; margin-bottom: 15px;">
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #ff9800, #ffc107); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #212529; font-weight: bold; font-size: 1.2rem; margin-right: 15px;">ES</div>
+              <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                  <h5 style="font-weight: bold; color: #ef6c00; margin: 0;">Eka Sari</h5>
+                  <span style="background-color: #6c757d; color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; font-weight: bold;">AWAY</span>
+                </div>
+                <p style="color: #666; margin: 3px 0; font-size: 0.9rem;">DevOps Engineer</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+                  <span style="background-color: #ffe0b2; color: #ef6c00; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Docker</span>
+                  <span style="background-color: #ffe0b2; color: #ef6c00; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Kubernetes</span>
+                  <span style="background-color: #ffe0b2; color: #ef6c00; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">CI/CD</span>
+                </div>
+                <div style="margin-top: 10px;">
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 3px;">
+                    <span>DevOps Mastery</span>
+                    <span>78%</span>
+                  </div>
+                  <div style="width: 100%; background-color: #e9ecef; border-radius: 5px; height: 6px;">
+                    <div style="background: linear-gradient(90deg, #ff9800, #ffc107); height: 6px; border-radius: 5px; width: 78%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; align-items: center; padding: 15px; background: linear-gradient(135deg, #e0f7fa, #b2ebf2); border-radius: 12px;">
+              <div style="width: 50px; height: 50px; background: linear-gradient(135deg, #00bcd4, #0097a7); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 1.2rem; margin-right: 15px;">AI</div>
+              <div style="flex: 1;">
+                <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 5px;">
+                  <h5 style="font-weight: bold; color: #006064; margin: 0;">AI Assistant</h5>
+                  <span style="background-color: #4caf50; color: white; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px; font-weight: bold;">ACTIVE</span>
+                </div>
+                <p style="color: #666; margin: 3px 0; font-size: 0.9rem;">Machine Learning Specialist</p>
+                <div style="display: flex; flex-wrap: wrap; gap: 5px; margin-top: 5px;">
+                  <span style="background-color: #b2ebf2; color: #006064; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">TensorFlow</span>
+                  <span style="background-color: #b2ebf2; color: #006064; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">Python</span>
+                  <span style="background-color: #b2ebf2; color: #006064; font-size: 0.75rem; padding: 3px 8px; border-radius: 12px;">NLP</span>
+                </div>
+                <div style="margin-top: 10px;">
+                  <div style="display: flex; justify-content: space-between; font-size: 0.8rem; margin-bottom: 3px;">
+                    <span>AI Integration</span>
+                    <span>85%</span>
+                  </div>
+                  <div style="width: 100%; background-color: #e9ecef; border-radius: 5px; height: 6px;">
+                    <div style="background: linear-gradient(90deg, #00bcd4, #0097a7); height: 6px; border-radius: 5px; width: 85%;"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <button style="width: 100%; background: linear-gradient(135deg, #dc3545, #ff6b6b); color: white; font-weight: bold; padding: 15px; border: none; border-radius: 8px; cursor: pointer; font-size: 1.1rem; transition: transform 0.2s;">
+            🚪 Leave Session
+          </button>
+        </div>
+
+        <div>
+          <h4 style="font-weight: bold; color: #333; margin-bottom: 15px;">💬 Live Chat & Activity Feed with AI Integration</h4>
+
+          <div style="height: 400px; overflow-y: auto; background-color: #f8f9fa; border-radius: 12px; padding: 20px; margin-bottom: 20px;">
+            <div style="display: flex; margin-bottom: 20px;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #2196f3, #21cbf3); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">AS</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #0d47a1; margin-right: 10px;">Andi Saputra</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">10:30 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">I've completed the frontend layout for the dashboard. What do you think?</p>
+                </div>
+                <div style="display: flex; gap: 5px; margin-top: 10px;">
+                  <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">👍 2</span>
+                  <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">👏 1</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 20px;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #4caf50, #8bc34a); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">BP</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #2e7d32; margin-right: 10px;">Budi Prasetyo</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">10:35 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">Looks great! I'll start working on the API endpoints for user management.</p>
+                </div>
+                <div style="display: flex; gap: 5px; margin-top: 10px;">
+                  <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">🔥 1</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 20px;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #00bcd4, #0097a7); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">AI</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #006064; margin-right: 10px;">AI Assistant</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">10:40 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">🔍 Code Analysis: I've reviewed the frontend code and found 3 potential optimization opportunities. Would you like me to share them?</p>
+                </div>
+                <div style="display: flex; gap: 5px; margin-top: 10px;">
+                  <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">🤖 1</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 20px;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #9c27b0, #e91e63); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">CD</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #6a1b9a; margin-right: 10px;">Cinta Dewi</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">10:42 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">I've uploaded the latest design mockups to the shared folder. Let me know what you think!</p>
+                </div>
+                <div style="display: flex; gap: 5px; margin-top: 10px;">
+                  <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">🎨 1</span>
+                  <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">👀 2</span>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 20px;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #ff9800, #ffc107); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #212529; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">ES</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #ef6c00; margin-right: 10px;">Eka Sari</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">10:50 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">Great progress everyone! Remember we have the client presentation next Friday. Let's schedule a review session for Thursday.</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex; margin-bottom: 20px;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #6a11cb, #2575fc); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">🔄</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #6a11cb; margin-right: 10px;">System</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">10:55 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">📊 Milestone Update: Frontend Development milestone marked as complete by Andi Saputra</p>
+                </div>
+              </div>
+            </div>
+
+            <div style="display: flex;">
+              <div style="width: 40px; height: 40px; background: linear-gradient(135deg, #00bcd4, #0097a7); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-weight: bold; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">AI</div>
+              <div>
+                <div style="display: flex; align-items: center; margin-bottom: 5px;">
+                  <span style="font-weight: bold; color: #006064; margin-right: 10px;">AI Assistant</span>
+                  <span style="font-size: 0.8rem; color: #6c757d;">11:00 AM</span>
+                </div>
+                <div style="background-color: white; border-radius: 12px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                  <p style="margin: 0;">📈 Performance Insight: Current codebase has 92% test coverage. Consider adding tests for the new authentication module.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div style="display: flex; gap: 15px;">
+            <input
+              type="text"
+              placeholder="Type your message..."
+              style="flex: 1; padding: 15px; border: 2px solid #e9ecef; border-radius: 8px; outline: none; font-size: 1rem;"
+            />
+            <button style="background: linear-gradient(135deg, #007bff, #00d4ff); color: white; font-weight: bold; padding: 15px 25px; border: none; border-radius: 8px; cursor: pointer; font-size: 1rem;">
+              Send
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #eee;">
+        <h4 style="font-weight: bold; color: #333; margin-bottom: 15px;">📂 Shared Files & Learning Resources with AI Recommendations</h4>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+          <div style="border: 2px solid #007bff; border-radius: 12px; padding: 20px; background-color: #f8f9fa;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+              <h5 style="font-weight: bold; color: #007bff;">dashboard-layout.png</h5>
+              <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">Image</span>
+            </div>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">Latest dashboard design mockup</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 0.85rem; color: #666;">Uploaded by Andi</span>
+              <button style="background-color: #007bff; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer; font-size: 0.9rem;">Download</button>
+            </div>
+          </div>
+
+          <div style="border: 2px solid #28a745; border-radius: 12px; padding: 20px; background-color: #f8f9fa;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+              <h5 style="font-weight: bold; color: #28a745;">api-documentation.pdf</h5>
+              <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">PDF</span>
+            </div>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">Complete API documentation for user endpoints</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 0.85rem; color: #666;">Uploaded by Budi</span>
+              <button style="background-color: #28a745; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer; font-size: 0.9rem;">Download</button>
+            </div>
+          </div>
+
+          <div style="border: 2px solid #ffc107; border-radius: 12px; padding: 20px; background-color: #f8f9fa;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+              <h5 style="font-weight: bold; color: #ffc107;">user-research.docx</h5>
+              <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">Document</span>
+            </div>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">User research findings and recommendations</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 0.85rem; color: #666;">Uploaded by Cinta</span>
+              <button style="background-color: #ffc107; color: #212529; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer; font-size: 0.9rem;">Download</button>
+            </div>
+          </div>
+
+          <div style="border: 2px solid #6f42c1; border-radius: 12px; padding: 20px; background-color: #f8f9fa;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 15px;">
+              <h5 style="font-weight: bold; color: #6f42c1;">project-timeline.xlsx</h5>
+              <span style="background-color: #e9ecef; color: #495057; font-size: 0.8rem; padding: 4px 10px; border-radius: 20px;">Spreadsheet</span>
+            </div>
+            <p style="font-size: 0.9rem; color: #666; margin-bottom: 15px;">Updated project timeline with milestones</p>
+            <div style="display: flex; justify-content: space-between; align-items: center;">
+              <span style="font-size: 0.85rem; color: #666;">Uploaded by Eka</span>
+              <button style="background-color: #6f42c1; color: white; border: none; border-radius: 6px; padding: 8px 15px; cursor: pointer; font-size: 0.9rem;">Download</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #eee;">
+        <h4 style="font-weight: bold; color: #333; margin-bottom: 15px;">🎯 Advanced Learning Path Progress with AI Insights</h4>
+
+        <div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-radius: 12px; padding: 25px;">
+          <h5 style="font-weight: bold; color: #0d47a1; margin-bottom: 15px;">Enterprise-Level Full-Stack Web Development Path with AI Integration</h5>
+          <p style="color: #0d47a1; margin-bottom: 20px;">Comprehensive path covering frontend, backend, database development, AI integration, and DevOps</p>
+
+          <div style="margin-bottom: 20px;">
+            <div style="display: flex; justify-content: space-between; margin-bottom: 10px;">
+              <span style="font-weight: bold; color: #333;">Overall Progress</span>
+              <span style="font-weight: bold; color: #6a11cb;">72%</span>
+            </div>
+            <div style="width: 100%; background-color: #e9ecef; border-radius: 10px; height: 20px;">
+              <div style="background: linear-gradient(90deg, #6a11cb, #2575fc); height: 20px; border-radius: 10px; width: 72%;"></div>
+            </div>
+          </div>
+
+          <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px;">
+            <div>
+              <h6 style="font-weight: bold; color: #333; margin-bottom: 12px;">Skills Development with AI Recommendations</h6>
+              <div style="background-color: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #6a11cb, #2575fc); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">1</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">Frontend Development</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">React, TypeScript, Next.js, CSS</p>
+                    <div style="display: flex; align-items: center; margin-top: 8px;">
+                      <div style="width: 80%; background-color: #e9ecef; border-radius: 5px; height: 8px; margin-right: 10px;">
+                        <div style="background-color: #4caf50; height: 8px; border-radius: 5px; width: 92%;"></div>
+                      </div>
+                      <span style="font-size: 0.8rem; font-weight: bold;">92%</span>
+                    </div>
+                    <div style="margin-top: 8px; font-size: 0.8rem; color: #0d47a1;">
+                      <span style="font-weight: bold;">AI Recommendation:</span> Focus on React hooks optimization
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="background-color: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #6a11cb, #2575fc); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">2</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">Backend Development</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">Node.js, Express, MongoDB, Redis</p>
+                    <div style="display: flex; align-items: center; margin-top: 8px;">
+                      <div style="width: 80%; background-color: #e9ecef; border-radius: 5px; height: 8px; margin-right: 10px;">
+                        <div style="background-color: #ff9800; height: 8px; border-radius: 5px; width: 87%;"></div>
+                      </div>
+                      <span style="font-size: 0.8rem; font-weight: bold;">87%</span>
+                    </div>
+                    <div style="margin-top: 8px; font-size: 0.8rem; color: #ef6c00;">
+                      <span style="font-weight: bold;">AI Recommendation:</span> Implement caching strategies
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="background-color: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #6a11cb, #2575fc); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">3</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">AI Integration</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">TensorFlow, Python, NLP, Computer Vision</p>
+                    <div style="display: flex; align-items: center; margin-top: 8px;">
+                      <div style="width: 80%; background-color: #e9ecef; border-radius: 5px; height: 8px; margin-right: 10px;">
+                        <div style="background-color: #00bcd4; height: 8px; border-radius: 5px; width: 85%;"></div>
+                      </div>
+                      <span style="font-size: 0.8rem; font-weight: bold;">85%</span>
+                    </div>
+                    <div style="margin-top: 8px; font-size: 0.8rem; color: #006064;">
+                      <span style="font-weight: bold;">AI Recommendation:</span> Explore computer vision applications
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div>
+              <h6 style="font-weight: bold; color: #333; margin-bottom: 12px;">Current Milestones with Predictive Analytics</h6>
+              <div style="background-color: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #4caf50, #8bc34a); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">✓</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">Project Planning</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">Completed on Oct 20, 2023</p>
+                    <div style="margin-top: 5px; font-size: 0.8rem; color: #2e7d32;">
+                      <span style="font-weight: bold;">AI Insight:</span> On schedule
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="background-color: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #4caf50, #8bc34a); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">✓</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">Frontend Development</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">Completed today</p>
+                    <div style="margin-top: 5px; font-size: 0.8rem; color: #2e7d32;">
+                      <span style="font-weight: bold;">AI Insight:</span> 2 days ahead of schedule
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="background-color: white; border-radius: 8px; padding: 15px; margin-bottom: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #ff9800, #ffc107); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: #212529; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">3</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">Backend Development</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">Due on Nov 25, 2023</p>
+                    <div style="margin-top: 5px; font-size: 0.8rem; color: #ef6c00;">
+                      <span style="font-weight: bold;">AI Prediction:</span> Likely completion by Nov 20
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div style="background-color: white; border-radius: 8px; padding: 15px; box-shadow: 0 2px 5px rgba(0,0,0,0.05);">
+                <div style="display: flex; align-items: flex-start; margin-bottom: 12px;">
+                  <div style="width: 30px; height: 30px; background: linear-gradient(135deg, #00bcd4, #0097a7); border-radius: 50%; display: flex; align-items: center; justify-content: center; color: white; font-size: 0.9rem; margin-right: 15px; flex-shrink: 0;">4</div>
+                  <div>
+                    <p style="font-weight: bold; margin: 0; font-size: 1.1rem;">AI Integration</p>
+                    <p style="font-size: 0.9rem; color: #666; margin: 5px 0;">Due on Dec 15, 2023</p>
+                    <div style="margin-top: 5px; font-size: 0.8rem; color: #006064;">
+                      <span style="font-weight: bold;">AI Prediction:</span> On track for deadline
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="margin-top: 25px; padding-top: 20px; border-top: 1px solid #eee;">
+        <h4 style="font-weight: bold; color: #333; margin-bottom: 15px;">📊 Collaboration Analytics Dashboard</h4>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 20px;">
+          <div style="background: linear-gradient(135deg, #e8f5e9, #c8e6c9); border-radius: 12px; padding: 20px; text-align: center;">
+            <p style="font-size: 0.9rem; color: #666; margin: 0 0 10px;">Messages Sent</p>
+            <p style="font-size: 1.8rem; font-weight: bold; color: #2e7d32; margin: 0;">42</p>
+            <div style="margin-top: 10px; font-size: 0.8rem; color: #2e7d32;">
+              <span style="font-weight: bold;">+12%</span> from yesterday
+            </div>
+          </div>
+
+          <div style="background: linear-gradient(135deg, #e3f2fd, #bbdefb); border-radius: 12px; padding: 20px; text-align: center;">
+            <p style="font-size: 0.9rem; color: #666; margin: 0 0 10px;">Files Shared</p>
+            <p style="font-size: 1.8rem; font-weight: bold; color: #0d47a1; margin: 0;">12</p>
+            <div style="margin-top: 10px; font-size: 0.8rem; color: #0d47a1;">
+              <span style="font-weight: bold;">+3</span> from yesterday
+            </div>
+          </div>
+
+          <div style="background: linear-gradient(135deg, #f3e5f5, #e1bee7); border-radius: 12px; padding: 20px; text-align: center;">
+            <p style="font-size: 0.9rem; color: #666; margin: 0 0 10px;">AI Interactions</p>
+            <p style="font-size: 1.8rem; font-weight: bold; color: #6a1b9a; margin: 0;">8</p>
+            <div style="margin-top: 10px; font-size: 0.8rem; color: #6a1b9a;">
+              <span style="font-weight: bold;">+5</span> from yesterday
+            </div>
+          </div>
+        </div>
+
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin-top: 20px;">
+          <div style="background: linear-gradient(135deg, #fff3e0, #ffe0b2); border-radius: 12px; padding: 20px;">
+            <h5 style="font-weight: bold; color: #ef6c00; margin-bottom: 15px;">Participant Activity Heatmap</h5>
+            <div style="display: grid; grid-template-columns: repeat(7, 1fr); gap: 5px;">
+              <div style="height: 30px; background-color: #ffecb3; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffd54f; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffca28; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffc107; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffb300; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffa000; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ff8f00; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffecb3; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffd54f; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffca28; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffc107; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffb300; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffa000; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ff8f00; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffecb3; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffd54f; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffca28; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffc107; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffb300; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ffa000; border-radius: 4px;"></div>
+              <div style="height: 30px; background-color: #ff8f00; border-radius: 4px;"></div>
+            </div>
+            <div style="display: flex; justify-content: space-between; margin-top: 10px; font-size: 0.8rem; color: #666;">
+              <span>Mon</span>
+              <span>Tue</span>
+              <span>Wed</span>
+              <span>Thu</span>
+              <span>Fri</span>
+              <span>Sat</span>
+              <span>Sun</span>
+            </div>
+          </div>
+
+          <div style="background: linear-gradient(135deg, #e0f7fa, #b2ebf2); border-radius: 12px; padding: 20px;">
+            <h5 style="font-weight: bold; color: #006064; margin-bottom: 15px;">Skill Distribution Across Team</h5>
+            <div style="display: flex; align-items: flex-end; height: 100px; gap: 10px; margin-top: 20px;">
+              <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100%; background: linear-gradient(to top, #2196f3, #21cbf3); height: 80%; border-radius: 4px 4px 0 0;"></div>
+                <span style="font-size: 0.8rem; margin-top: 5px;">Frontend</span>
+              </div>
+              <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100%; background: linear-gradient(to top, #4caf50, #8bc34a); height: 70%; border-radius: 4px 4px 0 0;"></div>
+                <span style="font-size: 0.8rem; margin-top: 5px;">Backend</span>
+              </div>
+              <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100%; background: linear-gradient(to top, #9c27b0, #e91e63); height: 90%; border-radius: 4px 4px 0 0;"></div>
+                <span style="font-size: 0.8rem; margin-top: 5px;">Design</span>
+              </div>
+              <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100%; background: linear-gradient(to top, #ff9800, #ffc107); height: 60%; border-radius: 4px 4px 0 0;"></div>
+                <span style="font-size: 0.8rem; margin-top: 5px;">DevOps</span>
+              </div>
+              <div style="flex: 1; display: flex; flex-direction: column; align-items: center;">
+                <div style="width: 100%; background: linear-gradient(to top, #00bcd4, #0097a7); height: 85%; border-radius: 4px 4px 0 0;"></div>
+                <span style="font-size: 0.8rem; margin-top: 5px;">AI</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  `;
+}

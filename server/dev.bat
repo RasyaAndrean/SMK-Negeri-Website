@@ -1,0 +1,3 @@
+@echo off
+echo Starting SMK Negeri API Server in development mode...
+npx ts-node src/index.ts

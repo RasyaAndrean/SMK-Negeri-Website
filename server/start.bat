@@ -1,0 +1,3 @@
+@echo off
+echo Starting SMK Negeri API Server...
+node dist/index.js

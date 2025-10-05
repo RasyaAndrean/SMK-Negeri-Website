@@ -1,0 +1,680 @@
+openapi: 3.0.0
+info:
+  title: SMK Negeri API
+  description: API for SMK Negeri Website
+  version: 1.0.0
+
+servers:
+  - url: http://localhost:3001/api
+    description: Development server
+
+paths:
+  /auth/login:
+    post:
+      summary: User login
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                password:
+                  type: string
+      responses:
+        '200':
+          description: Successful login
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  token:
+                    type: string
+                  user:
+                    $ref: '#/components/schemas/User'
+        '400':
+          description: Validation error
+        '401':
+          description: Invalid credentials
+
+  /auth/register:
+    post:
+      summary: User registration
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+                role:
+                  type: string
+      responses:
+        '201':
+          description: User created successfully
+        '400':
+          description: Validation error
+        '409':
+          description: User already exists
+
+  /auth/logout:
+    post:
+      summary: User logout
+      responses:
+        '200':
+          description: Successful logout
+
+  /majors:
+    get:
+      summary: Get all majors
+      responses:
+        '200':
+          description: List of majors
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Major'
+
+  /majors/{id}:
+    get:
+      summary: Get major by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Major details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/MajorDetail'
+        '404':
+          description: Major not found
+
+  /news:
+    get:
+      summary: Get all news articles
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+        - name: limit
+          in: query
+          schema:
+            type: integer
+        - name: category
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of news articles
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/News'
+                  pagination:
+                    $ref: '#/components/schemas/Pagination'
+
+  /news/{id}:
+    get:
+      summary: Get news article by ID
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: News article
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/News'
+        '404':
+          description: News article not found
+
+  /announcements:
+    get:
+      summary: Get all active announcements
+      responses:
+        '200':
+          description: List of announcements
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Announcement'
+
+  /events:
+    get:
+      summary: Get all events
+      parameters:
+        - name: start_date
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: end_date
+          in: query
+          schema:
+            type: string
+            format: date-time
+        - name: type
+          in: query
+          schema:
+            type: string
+      responses:
+        '200':
+          description: List of events
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Event'
+
+  /student/dashboard/{id}:
+    get:
+      summary: Get student dashboard
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Student dashboard data
+        '401':
+          description: Unauthorized
+        '404':
+          description: Student not found
+
+  /student/courses/{id}:
+    get:
+      summary: Get student courses
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: List of courses
+        '401':
+          description: Unauthorized
+        '404':
+          description: Student not found
+
+  /student/grades/{id}:
+    get:
+      summary: Get student grades
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Student grades
+        '401':
+          description: Unauthorized
+        '404':
+          description: Student not found
+
+  /student/attendance/{id}:
+    get:
+      summary: Get student attendance
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Student attendance
+        '401':
+          description: Unauthorized
+        '404':
+          description: Student not found
+
+  /teacher/dashboard/{id}:
+    get:
+      summary: Get teacher dashboard
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: Teacher dashboard data
+        '401':
+          description: Unauthorized
+        '404':
+          description: Teacher not found
+
+  /teacher/classes/{id}:
+    get:
+      summary: Get teacher classes
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: List of classes
+        '401':
+          description: Unauthorized
+        '404':
+          description: Teacher not found
+
+  /teacher/classes/{id}/students:
+    get:
+      summary: Get students in a class
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: List of students
+        '401':
+          description: Unauthorized
+
+  /teacher/grades:
+    post:
+      summary: Submit student grades
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                class_id:
+                  type: integer
+                course_id:
+                  type: integer
+                grades:
+                  type: array
+                  items:
+                    type: object
+                    properties:
+                      student_id:
+                        type: integer
+                      assignment_name:
+                        type: string
+                      score:
+                        type: number
+                      max_score:
+                        type: number
+      responses:
+        '200':
+          description: Grades submitted successfully
+        '401':
+          description: Unauthorized
+
+  /admin/dashboard:
+    get:
+      summary: Get admin dashboard
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: Admin dashboard data
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+
+  /admin/users:
+    get:
+      summary: Get all users
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: role
+          in: query
+          schema:
+            type: string
+        - name: page
+          in: query
+          schema:
+            type: integer
+        - name: limit
+          in: query
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: List of users
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+    post:
+      summary: Create a new user
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                password:
+                  type: string
+                role:
+                  type: string
+      responses:
+        '201':
+          description: User created successfully
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+
+  /admin/users/{id}:
+    put:
+      summary: Update user
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                username:
+                  type: string
+                email:
+                  type: string
+                role:
+                  type: string
+      responses:
+        '200':
+          description: User updated successfully
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: User not found
+    delete:
+      summary: Delete user
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: id
+          in: path
+          required: true
+          schema:
+            type: integer
+      responses:
+        '200':
+          description: User deleted successfully
+        '401':
+          description: Unauthorized
+        '403':
+          description: Forbidden
+        '404':
+          description: User not found
+
+  /ppdb/register:
+    post:
+      summary: Submit PPDB application
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                first_name:
+                  type: string
+                last_name:
+                  type: string
+                birth_place:
+                  type: string
+                birth_date:
+                  type: string
+                  format: date
+                gender:
+                  type: string
+                address:
+                  type: string
+                phone:
+                  type: string
+                parent_name:
+                  type: string
+                parent_phone:
+                  type: string
+                first_choice_major_id:
+                  type: integer
+                second_choice_major_id:
+                  type: integer
+                third_choice_major_id:
+                  type: integer
+      responses:
+        '201':
+          description: Application submitted successfully
+        '400':
+          description: Validation error
+
+  /ppdb/status/{registration_number}:
+    get:
+      summary: Get PPDB application status
+      parameters:
+        - name: registration_number
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Application status
+        '404':
+          description: Application not found
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
+
+  schemas:
+    User:
+      type: object
+      properties:
+        id:
+          type: integer
+        username:
+          type: string
+        email:
+          type: string
+        role:
+          type: string
+
+    Major:
+      type: object
+      properties:
+        id:
+          type: integer
+        code:
+          type: string
+        name:
+          type: string
+        description:
+          type: string
+        image:
+          type: string
+
+    MajorDetail:
+      allOf:
+        - $ref: '#/components/schemas/Major'
+        - type: object
+          properties:
+            head_teacher:
+              $ref: '#/components/schemas/Teacher'
+            courses:
+              type: array
+              items:
+                $ref: '#/components/schemas/Course'
+
+    Teacher:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        expertise:
+          type: string
+
+    Course:
+      type: object
+      properties:
+        id:
+          type: integer
+        name:
+          type: string
+        credits:
+          type: integer
+
+    News:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        excerpt:
+          type: string
+        content:
+          type: string
+        featured_image:
+          type: string
+        published_at:
+          type: string
+          format: date-time
+        author:
+          type: string
+        tags:
+          type: array
+          items:
+            type: string
+        view_count:
+          type: integer
+
+    Announcement:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        content:
+          type: string
+        target_audience:
+          type: string
+        priority:
+          type: string
+        valid_from:
+          type: string
+          format: date-time
+        valid_to:
+          type: string
+          format: date-time
+
+    Event:
+      type: object
+      properties:
+        id:
+          type: integer
+        title:
+          type: string
+        description:
+          type: string
+        start_date:
+          type: string
+          format: date-time
+        end_date:
+          type: string
+          format: date-time
+        location:
+          type: string
+        type:
+          type: string
+
+    Pagination:
+      type: object
+      properties:
+        current_page:
+          type: integer
+        total_pages:
+          type: integer
+        total_items:
+          type: integer
+        items_per_page:
+          type: integer

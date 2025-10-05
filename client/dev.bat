@@ -1,0 +1,3 @@
+@echo off
+echo Starting SMK Negeri Client in development mode...
+npm run dev
